@@ -6,7 +6,7 @@
 	<a href="/" class="rounded-full bg-black px-4 py-2 text-white hover:bg-zinc-800">Download Now</a>
 </div>
 
-<div class="my-32 flex flex-col justify-center px-16">
+<div class="mx-auto my-32 flex max-w-6xl flex-col justify-center px-16">
 	<img src="onetab.png" class="rounded-xl border border-zinc-300 shadow-md" alt="" />
 	<h3 class="mb-4 mt-8 text-center text-4xl font-bold">Have 18,000+ tabs saved in OneTab?</h3>
 	<p class="mx-auto w-3/4 text-2xl">
