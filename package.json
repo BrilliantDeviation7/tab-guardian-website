@@ -30,6 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource-variable/dancing-script": "^5.0.16",
 		"chrono-node": "^2.7.0"
 	}
 }

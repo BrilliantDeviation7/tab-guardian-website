@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.postcss';
+	import '@fontsource-variable/dancing-script';
 
 	import { clickoutside } from '@svelte-put/clickoutside';
 
@@ -44,23 +45,35 @@
 			</svg>
 		</button>
 		<nav
-			class="h-0 w-full basis-full text-black transition-[height] sm:h-fit sm:basis-auto
+			class="h-0 w-full basis-full transition-[height] sm:h-fit sm:basis-auto
 			{navbarOpen ? 'h-60' : ''}"
 		>
-			<ul class="flex flex-col divide-y text-2xl sm:flex-row sm:gap-12 sm:divide-none">
-				<li class="flex items-center py-3">
-					<a on:click={closeNavbar} class="w-full pl-4 sm:pl-0" href="/">TabGuardian</a>
+			<ul class="flex flex-col divide-y sm:flex-row sm:items-center sm:gap-4 sm:divide-none">
+				<li class="absolute left-9 top-7 sm:static">
+					<a href="/">
+						<h2 class="font-['Dancing_Script_Variable'] text-2xl">TabGuardian</h2>
+					</a>
 				</li>
-				<li
-					class="ml-auto flex items-center py-3 decoration-green-500 decoration-2 hover:underline"
-				>
-					<a on:click={closeNavbar} class="w-full pl-4 sm:pl-0" href="/about">about</a>
+				<li class="sm:ml-auto">
+					<a
+						on:click={closeNavbar}
+						class="block w-full p-3 decoration-green-500 hover:underline"
+						href="/about">about</a
+					>
 				</li>
-				<li class="flex items-center py-3 decoration-green-500 decoration-2 hover:underline">
-					<a on:click={closeNavbar} class="w-full pl-4 sm:pl-0" href="/docs">docs</a>
+				<li>
+					<a
+						on:click={closeNavbar}
+						class="block w-full p-3 decoration-green-500 hover:underline"
+						href="/docs">docs</a
+					>
 				</li>
-				<li class="flex items-center py-3 decoration-green-500 decoration-2 hover:underline">
-					<a on:click={closeNavbar} class="w-full pl-4 sm:pl-0" href="/changelog">changelog</a>
+				<li>
+					<a
+						on:click={closeNavbar}
+						class="block w-full p-3 decoration-green-500 hover:underline"
+						href="/changelog">changelog</a
+					>
 				</li>
 			</ul>
 		</nav>

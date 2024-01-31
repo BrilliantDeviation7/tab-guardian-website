@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource-variable/dancing-script':
+    specifier: ^5.0.16
+    version: 5.0.16
   chrono-node:
     specifier: ^2.7.0
     version: 2.7.0
@@ -268,6 +271,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@fontsource-variable/dancing-script@5.0.16:
+    resolution: {integrity: sha512-NrjPyK6uGT2cAfgY4onzqbFeLqNOU9sBRhoAg8CYn+h3ENKTigWF8cyOUQQ5t5U5q7/NYOkWzNtTL/UdWFP9kw==}
+    dev: false
 
   /@jridgewell/gen-mapping@0.3.3:
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
