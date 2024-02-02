@@ -82,12 +82,9 @@
 
 <main class="flex min-h-screen flex-col bg-zinc-50">
 	<slot />
-	<div class="h-8" />
 </main>
 
-<footer
-	class="mt-auto bg-zinc-50 px-4 py-12 text-center font-light tracking-wide text-black transition-all"
->
+<footer class="mt-auto bg-zinc-50 p-8 text-center">
 	<!-- <p>
 		Built with SvelteKit and TailwindCSS. See the <a
 			class="text-emerald-400 hover:underline"
