@@ -2,18 +2,16 @@
 <h2 class="mt-4 text-center text-2xl font-thin">Don't let your tabs overwhelm you again.</h2>
 <a
 	href="/"
-	class="mx-auto mt-8 rounded-full border border-transparent bg-zinc-800 px-8 py-2 text-white transition-colors hover:border-zinc-800 hover:bg-transparent hover:text-black"
+	class="mx-auto mt-8 rounded-full border border-transparent bg-zinc-800 px-8 py-2 text-white transition-colors hover:border-zinc-700 hover:bg-transparent hover:text-black"
 	>Download <span class="animate-pulse">-&gt;</span></a
 >
 
 <div class="mx-auto my-32 flex max-w-6xl flex-col justify-center px-4 sm:px-16">
-	<img src="onetab.png" class="border border-zinc-300 shadow" alt="" />
-	<h3 class="mb-4 mt-8 text-center text-2xl">Have 18,000+ tabs saved in OneTab?</h3>
-	<p class="mx-auto w-3/4 text-xl">
-		I do (not proud of it), but you probably have them open and crowded in your browser instead.
-		Teachers, students, programmers, and all internet surfers, don't let tabs slow your computer to
-		a crawl!
-	</p>
+	<h3 class="mb-4 text-center text-4xl font-thin">
+		OneTab just turns too many tabs<br />into a
+		<span class="font-bold underline decoration-emerald-500">uselessly long list.</span>
+	</h3>
+	<img src="onetab.png" class="border shadow" alt="OneTab showing 18,000 saved tabs" />
 
 	<h3 class="mb-4 mt-32 text-center text-4xl font-thin">
 		TabGuardian gives you <span class="font-bold underline decoration-emerald-500"
@@ -21,17 +19,13 @@
 		><br />of tab management
 	</h3>
 
-	<div class="grid grid-cols-5 gap-6">
-		<div
-			class="col-span-2 border border-zinc-300 bg-white p-4 shadow transition-colors hover:border-zinc-800"
-		>
+	<div class="grid gap-6 sm:grid-cols-5">
+		<div class="border bg-white p-4 shadow transition-colors hover:border-zinc-700 sm:col-span-2">
 			<h4 class="ml-2 text-2xl font-bold tracking-wide">
 				Purge Tabs with Natural Language Date Parsing
 			</h4>
 		</div>
-		<div
-			class="col-span-3 border border-zinc-300 bg-white p-4 shadow transition-colors hover:border-zinc-800"
-		>
+		<div class="border bg-white p-4 shadow transition-colors hover:border-zinc-700 sm:col-span-3">
 			<h4 class="ml-2 text-2xl font-bold tracking-wide">
 				Customize Regex Filters
 				<svg
@@ -67,15 +61,11 @@
 			<img src="config.png" alt="" class="mt-4 w-full rounded-xl" />
 		</div>
 
-		<div
-			class="col-span-3 border border-zinc-300 bg-white p-4 shadow transition-colors hover:border-zinc-800"
-		>
+		<div class="border bg-white p-4 shadow transition-colors hover:border-zinc-700 sm:col-span-3">
 			<h4 class="ml-2 text-2xl font-bold tracking-wide">Delete Unneeded Tabs</h4>
 			<img src="tools.png" alt="" class="mt-4 w-full rounded-xl" />
 		</div>
-		<div
-			class="col-span-2 border border-zinc-300 bg-white p-4 shadow transition-colors hover:border-zinc-800"
-		>
+		<div class="border bg-white p-4 shadow transition-colors hover:border-zinc-700 sm:col-span-2">
 			<h4 class="ml-2 text-2xl font-bold tracking-wide">Quickly Restore Stashed Tabs</h4>
 		</div>
 	</div>
